@@ -26,7 +26,19 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    printf("%c",ch);
+    return 0;
+}
+```
 # Output:
+<img width="1083" height="187" alt="image" src="https://github.com/user-attachments/assets/0cfc7d50-efc9-432c-99cd-402cdb6fa917" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +69,21 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include<stdio.h>
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    if(a=='P')
+    {
+        printf("Present");
+    }
+}
+```
 # Output:
+<img width="586" height="343" alt="image" src="https://github.com/user-attachments/assets/54ab222b-1c5c-4aa6-a3f2-fbff9e46adc6" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,8 +107,22 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int c=(a>b)?a:b;
+    printf("Maximum between %d and %d is %d",a,b,c);
+}
+```
 # Output:
-# Result: 
+<img width="1096" height="432" alt="image" src="https://github.com/user-attachments/assets/d5639994-4163-4cdb-b33e-9d0c6751abd4" />
+
+# Result:
+Thus, the program was implemented and executed successfully, and the required output was obtained.
+
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -120,7 +160,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a!=b)
+    {
+        printf("a is not equal to b");
+    }
+    
+ return 0;   
+}
+```
 # Output:
+<img width="642" height="301" alt="image" src="https://github.com/user-attachments/assets/772a6c05-2f60-4f5b-a5f8-26795bc49e7e" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +221,25 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%13==0)
+    {
+        printf("Divisible by 13");
+    }
+    else
+    {
+        printf("Not Divisible by 13");
+    }
+}
+```
 # Output:
+<img width="650" height="286" alt="image" src="https://github.com/user-attachments/assets/0341e42c-3d0d-49c0-9902-006a5ebeb40e" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
